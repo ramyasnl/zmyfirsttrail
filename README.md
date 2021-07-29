@@ -16,15 +16,14 @@
           
    **ANALYSIS**<br/>
    **Step1:** Create a Pivot table  “Theater Outcomes vs Launch date” taking Outcomes in y axis and Date Created Conversion in x axis using 
-                 “parent category”and  “years” as Filter and “count of outcomes”in values,In the filter we select only “successful”,”Failure”,”Cancelled”
-                  And in the “parent category” we select only the “Theater” since we need that particular data.<br/>
-    **Step2:** Visualizing the data .
-                 Done by  pivot table analysis line chart.<br/>
-                 ![](https://github.com/ramyasnl/Kickstarter_Challenge/blob/main/D1months%20vs%20theateroutcomes.png) <br/>
+               “parent category”and  “years” as Filter and “count of outcomes”in values,In the filter we select only “successful”,”Failure”,”Cancelled”
+                And in the “parent category” we select only the “Theater” since we need that particular data.<br/>
+    **Step2:** Visualizing the data . Done by  pivot table analysis line chart.<br/>
+     ![](https://github.com/ramyasnl/Kickstarter_Challenge/blob/main/D1months%20vs%20theateroutcomes.png)<br/>
      **RESULTS**<br/>
-                The month that launched the most successful Kickstarter campaigns was May . However, January, February , March 
-                all had roughly the same number of failed campaigns launched. <br/>               
-       ## 2.The funding goals and percentage of outcome.##  <br/>
+     1.The month that launched the most successful Kickstarter campaigns was May . However, January, February , March 
+      all had roughly the same number of failed campaigns launched.<br/>               
+     2.The funding goals and percentage of outcome.<br/>
       For the ease of analyzing the data we are classifying the Goal  in to ranges mapping it to the outcomes which can give a clear picture to visualize.<br/>
      **Step1:** <br/>
       We need to use countifs() to classify the outcomes according to the range of goal amount ,<br/>
